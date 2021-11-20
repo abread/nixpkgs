@@ -9,24 +9,24 @@ let
   allBass = {
     bass = {
       h = "bass.h";
-      version = "2.4.15";
+      version = "2.4.16";
       so = {
         i686_linux = "libbass.so";
         x86_64-linux = "x64/libbass.so";
       };
       urlpath = "bass24-linux.zip";
-      sha256 = "1lmysxfhy727zskavml3ibg5w876ir88923bm17c21s59w5lh7l8";
+      hash = "sha256-/Blfp83gqfuMcrzZezAoXnrfTeYWmJuLnO/jzEM7ELc=";
     };
 
     bass_fx = {
       h = "C/bass_fx.h";
-      version = "2.4.12.1";
+      version = "2.4.12.6";
       so = {
         i686_linux = "libbass_fx.so";
         x86_64-linux = "x64/libbass_fx.so";
       };
       urlpath = "z/0/bass_fx24-linux.zip";
-      sha256 = "1q0g74z7iyhxqps5b3gnnbic8v2jji1r0mkvais57lsx8y21sbin";
+      hash = "sha256-qY64G63lK9zC1Z6NaAPeqX7UBg87mOcJfwXbH5FIHLU=";
     };
   };
 
